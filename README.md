@@ -17,9 +17,9 @@
 
 <br/>
 
-🔗 **Live Demo:** [assignment-2-static-webpage-silk.vercel.app](https://assignment-2-static-webpage-silk.vercel.app/)
+🔗 **Live Demo:** [assignment-2-static-webpage-silk.vercel.app](https://static-webpage-6mnb563dj-aah18751.vercel.app/)
 
-<a href="https://assignment-2-static-webpage-silk.vercel.app/">
+<a href="https://static-webpage-6mnb563dj-aah18751.vercel.app/">
 <img src="https://img.shields.io/badge/🚀%20Try%20it%20Live-Visit%20Site-ee0979?style=for-the-badge" alt="try it live"/>
 </a>
 
@@ -130,14 +130,14 @@ If the selected deadline date is in the past, the calculator shows a warning and
 
 This project is deployed on **Vercel** for free and reliable hosting.
 
-🔗 **Live URL:** [assignment-2-static-webpage-silk.vercel.app](https://assignment-2-static-webpage-silk.vercel.app/)
+🔗 **Live URL:** [static-webpage-silk.vercel.app](https://static-webpage-6mnb563dj-aah18751.vercel.app/)
 
 <br/>
 
 ## 📂 Project Structure
 
 ```
-assignment-2-static-webpage/
+static-webpage/
 ├── 📄 index.html   # Main HTML file
 ├── 🎨 style.css    # All styles and responsive design
 ├── ⚙️ script.js    # Price calculator and contact form logic
@@ -162,10 +162,10 @@ To run this project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/AbdulAzeemHashmi/assignment-2-static-webpage.git
+git clone https://github.com/AbdulAzeemHashmi/static-webpage.git
 
 # Navigate into the project folder
-cd assignment-2-static-webpage
+static-webpage
 
 # Open index.html in your browser
 ```
@@ -214,7 +214,7 @@ This project is built for educational purposes as part of the Codoc IT Internshi
 
 ### ⭐ If you found this project helpful, consider giving it a star
 
-<a href="https://github.com/AbdulAzeemHashmi/assignment-2-static-webpage/stargazers">
+<a href="https://github.com/AbdulAzeemHashmi/static-webpage/stargazers">
 <img src="https://img.shields.io/badge/Star%20this%20repo-⭐-yellow?style=for-the-badge" alt="star this repo"/>
 </a>
 
