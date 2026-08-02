@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdul Azeem - Assignment & Project Services</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ========== HEADER / NAVIGATION ========== -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Abdul Azeem</div>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="container">
+                <h1>Hi, I'm <span>Abdul Azeem</span></h1>
+                <p>
+                    I build assignments and projects for students. 
+                    Fast, reliable, and budget-friendly.
+                </p>
+                <a href="#pricing" class="btn btn-primary">Check Prices</a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <div class="container">
+                <h2>What I Offer</h2>
+                <div class="service-cards">
+                    <div class="card">
+                        <h3>📘 Assignments</h3>
+                        <p>Any subject, any topic. Complete, well-researched assignments delivered on time.</p>
+                    </div>
+                    <div class="card">
+                        <h3>💻 Projects</h3>
+                        <p>Web development, programming, or other tech projects. Code + documentation included.</p>
+                    </div>
+                    <div class="card">
+                        <h3>📞 Direct Support</h3>
+                        <p>Message me anytime. I reply quickly on WhatsApp and email.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Calculator Section -->
+        <section id="pricing">
+            <div class="container">
+                <h2>💰 Calculate Your Price</h2>
+                <p>Select the type and choose your deadline. I'll show the exact price.</p>
+                
+                <div class="calculator">
+                    <div class="form-group">
+                        <label for="workType">Type of Work:</label>
+                        <select id="workType">
+                            <option value="assignment">Assignment</option>
+                            <option value="project">Project</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="deadlineDate">Your Deadline (Date):</label>
+                        <input type="date" id="deadlineDate" />
+                    </div>
+
+                    <button id="calcBtn" class="btn btn-primary">Calculate Price</button>
+
+                    <div id="priceResult">
+                        <p>Price will appear here</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section - Updated with FormSubmit -->
+        <section id="contact">
+            <div class="container">
+                <h2>📩 Send Me a Message</h2>
+                <p>Fill the form below and I'll get back to you within a few hours!</p>
+
+                <!-- FormSubmit - Completely Free, No Sign-Up Required -->
+                <form action="https://formsubmit.co/abdulazeem7982@gmail.com" method="POST">
+                    <!-- Honeypot to prevent spam -->
+                    <input type="text" name="_honey" style="display:none;">
+                    
+                    <!-- Disable CAPTCHA (optional) -->
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <!-- Redirect after submission -->
+                    <input type="hidden" name="_next" value="https://assignment-2-static-webpage-silk.vercel.app/#contact">
+
+                    <div class="form-group">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" placeholder="e.g. Ahmed Khan" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your assignment/project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+
+                <div class="whatsapp-section">
+                    <p>Or chat with me directly on WhatsApp:</p>
+                    <a href="https://wa.me/923228535002" target="_blank" class="btn btn-whatsapp">
+                        📱 WhatsApp Me: +92 322 8535002
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Abdul Azeem. Built for Codoc IT Internship Assignment 2.</p>
+        </div>
+    </footer>
+
+    <!-- Link to JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
