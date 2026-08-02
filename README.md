@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated wave banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:a855f7,100:ec4899&height=220&section=header&text=Abdul%20Azeem&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Assignment%20%26%20Project%20Services%20Portal&descAlignY=58&descSize=18&descColor=e2e8f0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:a855f7,100:ec4899&height=220&section=header&text=Abdul%20Azeem&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Assignment%20and%20Project%20Services%20Portal&descAlignY=58&descSize=18&descColor=e2e8f0" width="100%"/>
 
 <br/>
 
@@ -26,7 +26,7 @@
 <br/><br/>
 
 <!-- Animated typing text -->
-<img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=24&pause=1200&color=A855F7&center=true&vCenter=true&width=700&lines=Next.js+15+%2B+React+19+%2B+TypeScript+5;Dark+Mode+Glassmorphism+UI+Design;Interactive+4-Step+Price+Wizard;0%25+Turnitin+Plagiarism+Guarantee;Direct+WhatsApp+%2B+Gmail+Contact" alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=24&pause=1200&color=A855F7&center=true&vCenter=true&width=700&lines=Next.js+15+%2B+React+19+%2B+TypeScript+5;Dark+Mode+Glassmorphism+UI+Design;Interactive+4+Step+Price+Wizard;0%25+Turnitin+Plagiarism+Guarantee;Direct+WhatsApp+%2B+Gmail+Contact" alt="Typing animation"/>
 
 <br/><br/>
 
@@ -51,7 +51,7 @@
 
 </div>
 
-> 🎓 A premium, fully interactive **student assignment and software project services portal** built for the **Codoc IT Internship Programme (Assignment 2)**. Features a glassmorphic dark UI with a real-time price wizard, deliverable inspector, portfolio gallery, and direct WhatsApp plus Gmail contact integration.
+> 🎓 A premium, fully interactive **student assignment and software project services portal** built for the **Codoc IT Internship Programme (Assignment 2)**. Features a glassmorphic dark UI with a real time price wizard, deliverable inspector, portfolio gallery, and direct WhatsApp plus Gmail contact integration.
 
 ---
 
@@ -63,12 +63,12 @@
 |---|---|
 | 🏠 **Hero Section** | Animated headline, badge row, dual CTA buttons, 3D visual card |
 | 🛠 **Services** | Three interactive glass cards with colored top accent bars |
-| 💰 **Price Wizard** | 4-step interactive calculator with PKR / USD toggle and urgency slider |
+| 💰 **Price Wizard** | 4 step interactive calculator with PKR / USD toggle and urgency slider |
 | 🔍 **Quality Inspector** | Code viewer, paper preview with 0% Turnitin badge, SQL schema |
 | 📁 **Portfolio Gallery** | Filterable past projects (Web Apps, Python, Academic, Databases) |
 | ⭐ **Student Reviews** | Verified reviews with avatar initials, star ratings, and milestone stats |
 | ❓ **FAQ Section** | Smooth animated accordion with reasons to choose this service |
-| 📩 **Contact Form** | Pre-filled Gmail launcher with WhatsApp direct button |
+| 📩 **Contact Form** | Pre filled Gmail launcher with WhatsApp direct button |
 
 </div>
 
@@ -78,24 +78,20 @@
 
 <div align="center">
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                    CORE FEATURE HIGHLIGHTS                         │
-├────────────────────────┬────────────────────────────────────────────┤
-│  ⚡ Next.js 15          │  App Router with Static Export             │
-│  ⚛️  React 19           │  Server and Client Components               │
-│  🛡️  TypeScript 5       │  Strict typing throughout                  │
-│  🎨 Tailwind CSS v4    │  Custom dark glassmorphism design           │
-│  💰 4-Step Wizard      │  Dynamic PKR / USD pricing engine          │
-│  📩 Gmail Integration  │  Pre-filled mailto contact form            │
-│  📱 WhatsApp Widget    │  Floating pulsing chat button              │
-│  🔍 Quality Inspector  │  Code, paper, and SQL preview panels       │
-│  📁 Portfolio Gallery  │  Filterable past work showcase             │
-│  ⭐ Verified Reviews   │  Student testimonials with avatar circles  │
-│  🔥 Smooth Animations  │  Micro-interactions on every interaction   │
-│  📐 Fully Responsive   │  Mobile, tablet, and desktop optimized     │
-└────────────────────────┴────────────────────────────────────────────┘
-```
+| Feature | Detail |
+|---|---|
+| ⚡ Next.js 15 | App Router with Static Export |
+| ⚛️ React 19 | Server and Client Components |
+| 🛡️ TypeScript 5 | Strict typing throughout |
+| 🎨 Tailwind CSS v4 | Custom dark glassmorphism design |
+| 💰 4 Step Wizard | Dynamic PKR / USD pricing engine |
+| 📩 Gmail Integration | Pre filled mailto contact form |
+| 📱 WhatsApp Widget | Floating pulsing chat button |
+| 🔍 Quality Inspector | Code, paper, and SQL preview panels |
+| 📁 Portfolio Gallery | Filterable past work showcase |
+| ⭐ Verified Reviews | Student testimonials with avatar circles |
+| 🔥 Smooth Animations | Micro interactions on every interaction |
+| 📐 Fully Responsive | Mobile, tablet, and desktop optimized |
 
 </div>
 
@@ -111,18 +107,24 @@
 
 <br/>
 
+<div align="center">
+
 | Technology | Version | Purpose |
 |---|---|---|
 | ⚫ **Next.js** | 15.x | App Router, SSR, Static Export |
 | ⚛️ **React** | 19.x | UI Component Library |
 | 🔷 **TypeScript** | 5.x | Type Safety and DX |
-| 🌊 **Tailwind CSS** | v4 | Utility-First Styling |
+| 🌊 **Tailwind CSS** | v4 | Utility First Styling |
 | 🔺 **Vercel** | Latest | Production Deployment |
 | ✨ **Lucide React** | Latest | Icon Library |
+
+</div>
 
 ---
 
 ## 💰 Pricing Logic
+
+<div align="center">
 
 ```mermaid
 flowchart TD
@@ -147,33 +149,39 @@ flowchart TD
 
     K --> L[Apply Promo Code STUDENT10]
     L --> M[Final Price Calculated]
-    M --> N[One-click WhatsApp Order]
-    M --> O[One-click Gmail Order]
+    M --> N[One Click WhatsApp Order]
+    M --> O[One Click Gmail Order]
 ```
+
+</div>
 
 ### 📊 Rate Table
 
+<div align="center">
+
 | Work Type | Timeline | Rate (PKR) | Rate (USD) |
 |---|---|---|---|
-| 📝 Assignment | 7 or more days | 100 PKR | ~0.35 USD |
-| 📝 Assignment | 3 to 6 days | 200 PKR | ~0.71 USD |
-| 📝 Assignment | 0 to 2 days (Urgent) | 500 PKR | ~1.78 USD |
-| 💻 Project | More than 7 days | 1,000 PKR | ~3.57 USD |
-| 💻 Project | 7 days or fewer | 2,000 PKR | ~7.14 USD |
+| 📝 Assignment | 7 or more days | 100 PKR | approximately 0.35 USD |
+| 📝 Assignment | 3 to 6 days | 200 PKR | approximately 0.71 USD |
+| 📝 Assignment | 0 to 2 days (Urgent) | 500 PKR | approximately 1.78 USD |
+| 💻 Project | More than 7 days | 1,000 PKR | approximately 3.57 USD |
+| 💻 Project | 7 days or fewer | 2,000 PKR | approximately 7.14 USD |
 
-> 🎟️ Use promo code **`STUDENT10`** for an additional discount!
+</div>
+
+> 🎟️ Use promo code **`STUDENT10`** for an additional discount.
 
 ---
 
 ## 📂 Project Structure
 
 ```
-📦 static-webpage/
+static-webpage/
 ├── 📁 public/
 │   └── 📁 images/
-│       ├── 🖼️  hero_illustration.png     # 3D glassmorphic dashboard graphic
-│       ├── 🖼️  portfolio_mockup.png      # Full-stack app showcase mockup
-│       └── 🖼️  academic_mockup.png       # IEEE paper preview mockup
+│       ├── 🖼️ hero_illustration.png     # 3D glassmorphic dashboard graphic
+│       ├── 🖼️ portfolio_mockup.png      # Full stack app showcase mockup
+│       └── 🖼️ academic_mockup.png       # IEEE paper preview mockup
 │
 ├── 📁 src/
 │   ├── 📁 app/
@@ -184,8 +192,8 @@ flowchart TD
 │   └── 📁 components/
 │       ├── 🧭 Header.tsx                # Sticky banner, nav, mobile drawer
 │       ├── 🦸 Hero.tsx                  # Headline, CTAs, 3D visual card
-│       ├── 🛠️  Services.tsx              # Three service offering cards
-│       ├── 🧙 OrderWizard.tsx           # Interactive 4-step price wizard
+│       ├── 🛠️ Services.tsx              # Three service offering cards
+│       ├── 🧙 OrderWizard.tsx           # Interactive 4 step price wizard
 │       ├── 🔍 DeliverableInspector.tsx  # Code and paper quality preview
 │       ├── 📁 PortfolioGallery.tsx      # Filterable past projects gallery
 │       ├── ⭐ Testimonials.tsx          # Verified reviews and stats bar
@@ -195,8 +203,8 @@ flowchart TD
 │       ├── 🍞 ToastProvider.tsx         # Floating notification alerts
 │       └── 🔻 Footer.tsx                # Brand, links, social icons
 │
-├── ⚙️  next.config.ts                   # Next.js configuration
-├── 🔧 postcss.config.mjs               # PostCSS for Tailwind CSS v4
+├── ⚙️ next.config.ts                    # Next.js configuration
+├── 🔧 postcss.config.mjs                # PostCSS for Tailwind CSS v4
 ├── 📘 tsconfig.json                     # TypeScript compiler settings
 ├── 📦 package.json                      # Dependencies and scripts
 ├── 🔺 vercel.json                       # Vercel deployment config
@@ -215,20 +223,30 @@ Make sure you have the following installed on your system:
 ![npm](https://img.shields.io/badge/npm-9%2B-CB3837?style=flat-square&logo=npm&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-Latest-F05032?style=flat-square&logo=git&logoColor=white)
 
-### 1️⃣ Clone the Repository
+<details open>
+<summary><b>1️⃣ Clone the Repository</b></summary>
+<br/>
 
 ```bash
 git clone https://github.com/AbdulAzeemHashmi/static-webpage.git
 cd static-webpage
 ```
 
-### 2️⃣ Install Dependencies
+</details>
+
+<details open>
+<summary><b>2️⃣ Install Dependencies</b></summary>
+<br/>
 
 ```bash
 npm install
 ```
 
-### 3️⃣ Run Development Server
+</details>
+
+<details open>
+<summary><b>3️⃣ Run Development Server</b></summary>
+<br/>
 
 ```bash
 npm run dev
@@ -236,18 +254,28 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### 4️⃣ Build for Production
+</details>
+
+<details open>
+<summary><b>4️⃣ Build for Production</b></summary>
+<br/>
 
 ```bash
 npm run build
 npm run start
 ```
 
-### 5️⃣ Deploy to Vercel
+</details>
+
+<details open>
+<summary><b>5️⃣ Deploy to Vercel</b></summary>
+<br/>
 
 ```bash
 npx vercel --prod
 ```
+
+</details>
 
 ---
 
@@ -255,36 +283,42 @@ npx vercel --prod
 
 This project is deployed on **Vercel** with automatic static optimization.
 
+<div align="center">
+
 | Environment | URL |
 |---|---|
 | 🟢 **Production** | [assignment-2-static-webpage-silk.vercel.app](https://assignment-2-static-webpage-silk.vercel.app/) |
 | 📦 **Repository** | [github.com/AbdulAzeemHashmi/static-webpage](https://github.com/AbdulAzeemHashmi/static-webpage) |
+| 🌿 **Active Branch** | [feature/website](https://github.com/AbdulAzeemHashmi/static-webpage/tree/feature/website) |
 | 📋 **Vercel Dashboard** | [vercel.com/aah18751/static-webpage](https://vercel.com/aah18751/static-webpage) |
+
+</div>
 
 ---
 
 ## 🎨 Design System
 
-```
-Color Palette
-┌──────────────────────────────────────────────────────────┐
-│  Background  #090d16  ████  Deep Navy Dark               │
-│  Cyan        #38bdf8  ████  Primary Accent               │
-│  Purple      #a855f7  ████  Secondary Accent             │
-│  Pink        #ec4899  ████  Tertiary Accent              │
-│  Emerald     #10b981  ████  Success / WhatsApp           │
-│  Slate       #1e293b  ████  Card Borders                 │
-└──────────────────────────────────────────────────────────┘
+<div align="center">
 
-Typography
-  Headings  ->  Outfit (Black 900, ExtraBold 800)
-  Body      ->  Inter  (Regular 400, Medium 500, SemiBold 600)
+| Token | Value | Role |
+|---|---|---|
+| 🖤 Background | `#090d16` | Deep Navy Dark |
+| 🩵 Cyan | `#38bdf8` | Primary Accent |
+| 💜 Purple | `#a855f7` | Secondary Accent |
+| 💗 Pink | `#ec4899` | Tertiary Accent |
+| 💚 Emerald | `#10b981` | Success / WhatsApp |
+| 🩶 Slate | `#1e293b` | Card Borders |
 
-Effects
-  Glass Cards  ->  rgba(15, 23, 42, 0.70) + backdrop-filter: blur(18px)
-  Gradients    ->  cyan 0% -> purple 55% -> pink 100%
-  Glow Orbs    ->  radial blurs, opacity 0.20, filter blur(110px)
-```
+</div>
+
+**🔤 Typography**
+- Headings: Outfit (Black 900, ExtraBold 800)
+- Body: Inter (Regular 400, Medium 500, SemiBold 600)
+
+**🌫️ Effects**
+- Glass Cards: `rgba(15, 23, 42, 0.70)` with `backdrop-filter: blur(18px)`
+- Gradients: cyan at 0% into purple at 55% into pink at 100%
+- Glow Orbs: radial blurs, opacity 0.20, `filter blur(110px)`
 
 ---
 
