@@ -1,128 +1,191 @@
-# 📘 Assignment & Project Services
+<div align="center">
 
-> A responsive static webpage offering assignment and project services with instant price calculation and direct contact options.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff6a00,100:ee0979&height=200&section=header&text=Assignment%20and%20Project%20Services&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Next.js%20%7C%20React%20%7C%20TypeScript%20%7C%20Tailwind%20CSS&descAlignY=55&descSize=16" width="100%"/>
 
-🔗 **Live Demo:** [assignment-2-static-webpage-silk.vercel.app](https://assignment-2-static-webpage-silk.vercel.app/)
+<br/>
+
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel&logoColor=white)
+
+<img src="https://img.shields.io/github/stars/AbdulAzeemHashmi/static-webpage?style=social" alt="stars"/>
+<img src="https://img.shields.io/github/forks/AbdulAzeemHashmi/static-webpage?style=social" alt="forks"/>
+<img src="https://img.shields.io/github/last-commit/AbdulAzeemHashmi/static-webpage?color=ee0979" alt="last commit"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=EE0979&center=true&vCenter=true&width=650&lines=Next.js+15+%2B+React+19+%2B+TypeScript;Interactive+Instant+Price+Calculator;Direct+Gmail+and+WhatsApp+Contact;Modern+Glassmorphism+UI%2FUX" alt="Typing SVG" />
+
+<br/>
+
+🔗 **Live Demo:** [static-webpage-6mnb563dj-aah18751.vercel.app](https://static-webpage-6mnb563dj-aah18751.vercel.app/)
+
+<a href="https://static-webpage-6mnb563dj-aah18751.vercel.app/">
+<img src="https://img.shields.io/badge/🚀%20Try%20it%20Live-Visit%20Site-ee0979?style=for-the-badge" alt="try it live"/>
+</a>
+
+</div>
+
+<br/>
+
+> 📘 Modern Next.js application offering academic assignment and web development project services with an instant price calculator and direct Gmail & WhatsApp contact options.
 
 ---
 
 ## 📖 About The Project
 
-This is a single page static website built as part of the **Codoc IT Internship Development Programme, Assignment 2**. It serves as a professional service page where students can:
+This application is built for the **Codoc IT Internship Development Programme, Assignment 2**, upgraded to modern frontend engineering standards using **Next.js 15 App Router**, **React 19**, **TypeScript**, and **Tailwind CSS v4**.
 
-- 💰 Check pricing for assignments and projects based on deadline urgency
-- 📩 Send direct messages via Gmail using a contact form
-- 📱 Connect instantly via WhatsApp for quick inquiries
-
-The page is fully responsive and works seamlessly on desktop, tablet, and mobile devices.
+It serves as a student service portal where users can:
+- 💰 Calculate exact pricing for assignments and projects based on deadline urgency
+- 📩 Send direct inquiries via pre-filled Gmail messages
+- 📱 Connect instantly via WhatsApp with one-click pre-filled inquiry buttons
+- 🎨 Enjoy a high-end glassmorphic dark theme UI with smooth micro-interactions and animations
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
 | Feature | Description |
 |---------|-------------|
-| 💰 **Price Calculator** | Select "Assignment" or "Project", pick a deadline date, and get an instant price quote in PKR |
-| 📩 **Contact Form** | Sends messages directly to abdulazeem7982@gmail.com via Gmail's mailto functionality |
-| 📱 **WhatsApp Integration** | One click button to start a chat on WhatsApp at +92 322 8535002 |
-| 📐 **Responsive Design** | Optimized for all screen sizes using CSS Flexbox, Grid, and Media Queries |
-| 🧭 **Semantic HTML** | Clean, accessible markup using header, nav, main, section, and footer tags |
-| 🎨 **Modern UI** | Professional color scheme with hover effects and smooth transitions |
+| ⚡ **Next.js 15 & React 19** | Modern App Router architecture with full SSR and performance optimization |
+| 🛡️ **TypeScript Safety** | Strictly typed component architecture and calculation models |
+| 🎨 **Tailwind CSS v4 & Glassmorphism** | Custom dark mode UI design system with vibrant ambient glows and hover effects |
+| 💰 **Interactive Price Calculator** | Dynamic pricing engine supporting quick deadline selection (+1, +3, +7 days) and urgency breakdown |
+| 📩 **Gmail Form Integration** | Generates pre-filled mailto messages directly to `abdulazeem7982@gmail.com` |
+| 📱 **Floating WhatsApp Widget** | One-click instant chat button linking directly to `+92 322 8535002` |
+| 📐 **Fully Responsive** | Optimized for mobile, tablet, and desktop viewports |
 
 ---
 
-## 💰 Pricing Logic
+## 💰 Pricing Logic Flowchart
 
-The calculator works out the price based on how many days remain until the deadline.
+```mermaid
+flowchart TD
+    A[📅 Pick Deadline Date] --> B{Type?}
+    B -->|📝 Assignment| C{Days Remaining}
+    B -->|🗂️ Project| D{Days Remaining}
+    C -->|🟢 7 or more| E[100 PKR]
+    C -->|🟡 3 to 6| F[200 PKR]
+    C -->|🔴 0 to 2| G[500 PKR]
+    D -->|🟢 More than 7| H[1000 PKR]
+    D -->|🔴 7 or fewer| I[2000 PKR]
+    A -->|⚠️ Past Date| J[Warning Shown]
+```
 
-**Assignments**
-- 🟢 7 or more days remaining, 100 PKR
-- 🟡 3 to 6 days remaining, 200 PKR
-- 🔴 0 to 2 days remaining, 500 PKR
+**📝 Assignments**
+- 🟢 **7+ Days:** 100 PKR
+- 🟡 **3–6 Days:** 200 PKR
+- 🔴 **0–2 Days:** 500 PKR
 
-**Projects**
-- 🟢 More than 7 days remaining, 1000 PKR
-- 🔴 7 or fewer days remaining, 2000 PKR
-
-If the selected deadline date is in the past, the calculator shows a warning and does not return a price.
+**🗂️ Projects**
+- 🟢 **More than 7 Days:** 1000 PKR
+- 🔴 **7 or fewer Days:** 2000 PKR
 
 ---
 
 ## 🛠️ Built With
 
-- 🧱 **HTML5**, semantic markup structure
-- 🎨 **CSS3**, custom styling with Flexbox, Grid, and responsive media queries
-- ⚙️ **JavaScript (Vanilla)**, price calculation logic and form handling
-- 🌿 **Git and GitHub**, version control with feature branch workflow
-- ▲ **Vercel**, deployment and hosting
+<div align="center">
 
----
+![Next.js](https://skillicons.dev/icons?i=nextjs)
+&nbsp;
+![React](https://skillicons.dev/icons?i=react)
+&nbsp;
+![TypeScript](https://skillicons.dev/icons?i=ts)
+&nbsp;
+![Tailwind CSS](https://skillicons.dev/icons?i=tailwind)
+&nbsp;
+![Vercel](https://skillicons.dev/icons?i=vercel)
 
-## 🚀 Deployment
-
-This project is deployed on **Vercel** for free and reliable hosting.
-
-🔗 **Live URL:** [https://assignment-2-static-webpage-silk.vercel.app/](https://assignment-2-static-webpage-silk.vercel.app/)
+</div>
 
 ---
 
 ## 📂 Project Structure
 
 ```
-assignment-2-static-webpage/
-├── index.html   📄 Main HTML file
-├── style.css    🎨 All styles and responsive design
-├── script.js    ⚙️ Price calculator and contact form logic
-└── README.md    📘 Project documentation
+static-webpage/
+├── 📁 src/
+│   ├── 📁 app/
+│   │   ├── 📄 globals.css       # Custom Tailwind CSS imports, variables & glassmorphism utilities
+│   │   ├── 📄 layout.tsx        # SEO metadata, Google Fonts & root layout
+│   │   └── 📄 page.tsx          # Main landing page component
+│   └── 📁 components/
+│       ├── 📄 Header.tsx            # Sticky glassmorphic header & navigation drawer
+│       ├── 📄 Hero.tsx              # Hero section with animated typography & badges
+│       ├── 📄 Services.tsx          # Interactive services cards
+│       ├── 📄 PricingCalculator.tsx # Interactive TypeScript pricing calculator
+│       ├── 📄 WhyChooseMe.tsx       # Benefits grid & interactive FAQ accordion
+│       ├── 📄 ContactSection.tsx    # Contact form & Gmail mailto generator
+│       ├── 📄 WhatsAppWidget.tsx    # Floating WhatsApp chat widget
+│       └── 📄 Footer.tsx            # Modern footer with credits
+├── 📄 next.config.ts            # Next.js configuration
+├── 📄 postcss.config.mjs        # PostCSS setup for Tailwind CSS v4
+├── 📄 tsconfig.json             # TypeScript compiler settings
+├── 📄 package.json              # Project dependencies & scripts
+└── 📘 README.md                # Project documentation
 ```
 
 ---
 
-## 🔧 Git Workflow
+## 💻 Getting Started Locally
 
-This project follows a clean Git workflow as required by the assignment:
-
-- 🌿 **Feature Branch:** `feature/website` was used for development
-- 📝 **Meaningful Commits:** Each commit has a clear, descriptive message
-- 🔀 **Merge to Main:** The feature branch was successfully merged into main
-
----
-
-## 💻 Getting Started
-
-To run this project locally:
+To run this Next.js project on your local machine:
 
 ```bash
-# Clone the repository
-git clone https://github.com/AbdulAzeemHashmi/assignment-2-static-webpage.git
+# 1. Clone the repository
+git clone https://github.com/AbdulAzeemHashmi/static-webpage.git
 
-# Navigate into the project folder
-cd assignment-2-static-webpage
+# 2. Navigate into the folder
+cd static-webpage
 
-# Open index.html in your browser
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
 ```
 
-No build tools or dependencies are required, it's a pure HTML, CSS, and JavaScript project. 🎉
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+
+---
+
+## 🚀 Building for Production
+
+To test the production build locally:
+
+```bash
+# Build production bundle
+npm run build
+
+# Start production server
+npm run start
+```
 
 ---
 
 ## 👨‍💻 Author
 
-**Abdul Azeem**
+<table>
+<tr>
+<td>🧑‍💻 <b>Name</b></td>
+<td>Abdul Azeem</td>
+</tr>
+<tr>
+<td>🐙 <b>GitHub</b></td>
+<td><a href="https://github.com/AbdulAzeemHashmi">@AbdulAzeemHashmi</a></td>
+</tr>
+<tr>
+<td>✉️ <b>Email</b></td>
+<td>abdulazeem7982@gmail.com</td>
+</tr>
+<tr>
+<td>📱 <b>WhatsApp</b></td>
+<td>+92 322 8535002</td>
+</tr>
+</table>
 
-- 🐙 GitHub: [@AbdulAzeemHashmi](https://github.com/AbdulAzeemHashmi)
-- ✉️ Email: abdulazeem7982@gmail.com
-- 📱 WhatsApp: +92 322 8535002
+<br/>
 
----
-
-## 📝 License
-
-This project is built for educational purposes as part of the Codoc IT Internship Programme.
-
----
-
-## 🙏 Acknowledgments
-
-- 🏢 Codoc IT Ltd. for providing the training and assignment guidelines
-- 📚 All resources and documentation that helped in building this project
+Made with 🧡 by Abdul Azeem for the Codoc IT Internship Development Programme.
